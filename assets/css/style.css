@@ -3,12 +3,13 @@
 }
 
 .header-area {
-  border-bottom: 3px dotted rgba(170, 170, 170, 0.274);
+  border-bottom: 2px dotted rgba(170, 170, 170, 0.274);
+  background-color: #F7F7F7;
 }
 
 .nav-link {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
   font-weight: 600;
   color: #000;
 }
@@ -37,4 +38,49 @@
 .dropdown-menu li a {
   letter-spacing: 1px;
   font-size: 18px;
+}
+
+.main-banner {
+  border-bottom: 2px dotted rgba(170, 170, 170, 0.274);
+}
+
+.left-content,
+.right-content {
+  position: relative;
+}
+
+.left-inner-content,
+.right-inner-content,
+.hover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-inner-content p {
+  font-size: 22px;
+}
+
+.left-inner-content .trbtn,
+.hover-content .trbtn {
+  background-color: transparent;
+  transition: all 0.2s;
+  width: 150px;
+  letter-spacing: 1px;
+}
+
+.left-inner-content .trbtn:hover,
+.hover-content .trbtn:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.hover-content {
+  background-color: rgba(32, 32, 32, 0.97);
+  display: none;
+}
+
+.right-content:hover .hover-content {
+  display: block;
 }

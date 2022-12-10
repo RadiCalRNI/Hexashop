@@ -18,54 +18,155 @@
 <body>
 
     <!-- Header -->
-    <div class="header-area py-3 px-4 ">
+    <div class="header-area py-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <a href="#">
                         <img src="./assets/img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-9 d-flex justify-content-end">
-                    <ul class="nav fs-5">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Men's</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Women's</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  href="#">Kid's</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link " data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Pages <i class="bi bi-chevron-down ms-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">About Us</a></li>
-                                <li><a class="dropdown-item" href="#">Products</a></li>
-                                <li><a class="dropdown-item" href="#">Single Product</a></li>
-                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <div class="col-6 col-md-9 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav fs-5">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Men's</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Women's</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Kid's</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages <i class="bi bi-chevron-down ms-2"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Features <i class="bi bi-chevron-down ms-2"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Explore</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Features <i class="bi bi-chevron-down  ms-1"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Feature Page 1</a></li>
-                                <li><a class="dropdown-item" href="#">Feature Page 2</a></li>
-                                <li><a class="dropdown-item" href="#">Feature Page 3</a></li>
-                                <li><a class="dropdown-item" href="#">Feature Page 4</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Explore</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Banner -->
+
+    <div class="main-banner py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <div class="left-inner-content">
+                            <h1 class="text-light fw-bold display-3">We Are <br> Hexashop</h1>
+                            <p class="fst-italic text-light">Awesome, clean & creative HTML5 Template</p>
+                            <button class="trbtn border border-light border-1 py-2 px-4 text-light">Purchase
+                                Now!</button>
+                        </div>
+                        <img class="img-fluid" src="./assets/img/left-banner-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-lg-6 ">
+                            <div class="right-content">
+                                <div class="right-inner-content">
+                                    <h2 class="text-light fw-bold text-center">Women</h2>
+                                    <p class="text-light fst-italic">Best Clothes For Women</p>
+                                </div>
+                                <div class="hover-content p-4 w-100 text-center">
+                                    <h3 class="text-light">Women</h3>
+                                    <p class="text-light w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.</p>
+                                    <button
+                                        class="trbtn border border-light border-1 my-2 py-2 px-4 text-light">Discover
+                                        More</button>
+                                </div>
+                                <img class="w-100" src="./assets/img/baner-right-image-01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-content">
+                                <div class="right-inner-content">
+                                    <h2 class="text-light fw-bold text-center">Men</h2>
+                                    <p class="text-light fst-italic">Best Clothes For Men</p>
+                                </div>
+                                <div class="hover-content p-4 w-100 text-center">
+                                    <h3 class="text-light">Men</h3>
+                                    <p class="text-light w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.</p>
+                                    <button
+                                        class="trbtn border border-light border-1 my-2 py-2 px-4 text-light">Discover
+                                        More</button>
+                                </div>
+                                <img class="w-100" src="./assets/img/baner-right-image-02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-content">
+                                <div class="right-inner-content">
+                                    <h2 class="text-light fw-bold text-center">Kids</h2>
+                                    <p class="text-light fst-italic">Best Clothes For Kids</p>
+                                </div>
+                                <div class="hover-content p-4 w-100 h text-center">
+                                    <h3 class="text-light">Kids</h3>
+                                    <p class="text-light w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.</p>
+                                    <button
+                                        class="trbtn border border-light border-1 my-2 py-2 px-4 text-light">Discover
+                                        More</button>
+                                </div>
+                                <img class="w-100" src="./assets/img/baner-right-image-03.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-content">
+                                <div class="right-inner-content">
+                                    <h2 class="text-light fw-bold text-center">Accessories</h2>
+                                    <p class="text-light fst-italic">Best Trend Accessories</p>
+                                </div>
+                                <div class="hover-content p-4 w-100 text-center">
+                                    <h3 class="text-light">Accessories</h3>
+                                    <p class="text-light w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.</p>
+                                    <button
+                                        class="trbtn border border-light border-1 my-2 py-2 px-4 text-light">Discover
+                                        More</button>
+                                </div>
+                                <img class="w-100" src="./assets/img/baner-right-image-04.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
