@@ -1,0 +1,40 @@
+* {
+  font-family: "Barlow Condensed";
+}
+
+.header-area {
+  border-bottom: 3px dotted rgba(170, 170, 170, 0.274);
+}
+
+.nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #aaa !important;
+}
+
+.nav-link i {
+  font-size: 1rem;
+}
+
+.active {
+  color: #aaa !important;
+}
+
+.dropdown-menu {
+  border: none;
+  width: 200px;
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.274);
+}
+
+.dropdown-menu li a {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
