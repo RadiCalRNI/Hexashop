@@ -62,7 +62,8 @@
 }
 
 .left-inner-content .trbtn,
-.hover-content .trbtn {
+.hover-content .trbtn,
+.left-content .trbtn {
   background-color: transparent;
   transition: all 0.2s;
   width: 150px;
@@ -87,4 +88,19 @@
 .card-body-up ul li {
   font-size: 12px;
   margin: 0 2px;
+}
+
+.left-content .trbtn:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.leather {
+  background-color: #f8f8f8;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 261px;
 }
