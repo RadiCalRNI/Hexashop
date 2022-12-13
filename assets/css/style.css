@@ -81,8 +81,21 @@
   display: none;
 }
 
+.img-part .hover-content {
+  width: 100%;
+  height: 100%;
+}
+
 .right-content:hover .hover-content {
   display: block;
+}
+
+.img-part:hover .hover-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: flex-end;
+  padding: 16px;
 }
 
 .card-body-up ul li {
