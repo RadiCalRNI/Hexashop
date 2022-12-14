@@ -117,3 +117,20 @@
   align-items: center;
   min-height: 261px;
 }
+
+.subscribe .form-control {
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+.subscribe .form-control::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+#subscribe .trbtn:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #000;
+}
