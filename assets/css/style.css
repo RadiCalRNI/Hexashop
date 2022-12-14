@@ -134,3 +134,14 @@
   color: #000 !important;
   border-color: #000;
 }
+
+.subscribe ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.subscribe ul li a:hover {
+  color: #000 !important;
+}
