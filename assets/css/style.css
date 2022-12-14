@@ -158,4 +158,9 @@ footer ul li {
 
 .under-footer a {
   color: #cff;
+  transition: color 0.2s;
+}
+
+.under-footer a:hover {
+  color: #c66;
 }
